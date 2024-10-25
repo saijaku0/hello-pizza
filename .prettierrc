@@ -1,0 +1,33 @@
+{
+    "semi": true,
+    "trailingComma": "all",
+    "tabWidth": 2,
+    "printWidth": 80,
+    "importOrder": [
+        "^react$",
+        "^next$",
+        "<THIRD_PARTY_MODULES>",
+        "^@/components/(.*)$",
+        "^./(.*).(css|scss)$",
+        "^./"
+    ],
+    "importOrderSeparation": true,
+    "importOrderSortSpecifiers": true,
+    "overrides": [
+        {
+            "files": "*.ts",
+            "options": {
+                "semi": true
+            }
+        },
+        {
+            "files": [
+                "*.html",
+                "legacy/**/*.ts/*.tsx"
+            ],
+            "options": {
+                "tabWidth": 4
+            }
+        }
+    ]
+}
