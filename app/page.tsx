@@ -10,8 +10,8 @@ export default function Home() {
 
       <TopBar />
 
-      <Container className="flex mt-10 gh-14">
-        <div className="flex gap-[60px]">
+      <Container className="flex mt-10 gh-14 gap-[50px]">
+        <div className="flex gap-[80px]">
           <div className="w-[260px]">
             <Filters />
           </div>
@@ -35,31 +35,91 @@ export default function Home() {
                   imageUrl: "https://placehold.co/40x40",
                   price: 20,
                   items: [{ price: 550 }],
-                },                {
+                },
+                {
                   id: 1,
                   name: "Pizza test 1",
                   imageUrl: "https://placehold.co/40x40",
                   price: 20,
                   items: [{ price: 550 }],
-                },                {
+                },
+                {
                   id: 1,
                   name: "Pizza test 1",
                   imageUrl: "https://placehold.co/40x40",
                   price: 20,
                   items: [{ price: 550 }],
-                },                {
+                },
+                {
                   id: 1,
                   name: "Pizza test 1",
                   imageUrl: "https://placehold.co/40x40",
                   price: 20,
                   items: [{ price: 550 }],
-                },                {
+                },
+                {
                   id: 1,
                   name: "Pizza test 1",
                   imageUrl: "https://placehold.co/40x40",
                   price: 20,
                   items: [{ price: 550 }],
-                },                {
+                },
+                {
+                  id: 1,
+                  name: "Pizza test 1",
+                  imageUrl: "https://placehold.co/40x40",
+                  price: 20,
+                  items: [{ price: 550 }],
+                },
+              ]}
+              categoryId={0}
+            />
+            <ProductGroupList
+              title={"Combo"}
+              products={[
+                {
+                  id: 1,
+                  name: "Pizza test 1",
+                  imageUrl: "https://placehold.co/40x40",
+                  price: 20,
+                  items: [{ price: 550 }],
+                },
+                {
+                  id: 1,
+                  name: "Pizza test 1",
+                  imageUrl: "https://placehold.co/40x40",
+                  price: 20,
+                  items: [{ price: 550 }],
+                },
+                {
+                  id: 1,
+                  name: "Pizza test 1",
+                  imageUrl: "https://placehold.co/40x40",
+                  price: 20,
+                  items: [{ price: 550 }],
+                },
+                {
+                  id: 1,
+                  name: "Pizza test 1",
+                  imageUrl: "https://placehold.co/40x40",
+                  price: 20,
+                  items: [{ price: 550 }],
+                },
+                {
+                  id: 1,
+                  name: "Pizza test 1",
+                  imageUrl: "https://placehold.co/40x40",
+                  price: 20,
+                  items: [{ price: 550 }],
+                },
+                {
+                  id: 1,
+                  name: "Pizza test 1",
+                  imageUrl: "https://placehold.co/40x40",
+                  price: 20,
+                  items: [{ price: 550 }],
+                },
+                {
                   id: 1,
                   name: "Pizza test 1",
                   imageUrl: "https://placehold.co/40x40",
