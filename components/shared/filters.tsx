@@ -92,6 +92,30 @@ export const Filters: React.FC<IProps> = ({ className }) => {
             text: "Tomatos",
             value: "6",
           },
+          {
+            text: "Chees sauce",
+            value: "1",
+          },
+          {
+            text: "Mozzarella",
+            value: "2",
+          },
+          {
+            text: "Garlic",
+            value: "3",
+          },
+          {
+            text: "Pickles",
+            value: "4",
+          },
+          {
+            text: "Onio",
+            value: "5",
+          },
+          {
+            text: "Tomatos",
+            value: "6",
+          },
         ]}
       />
     </div>

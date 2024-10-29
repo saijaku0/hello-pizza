@@ -1,4 +1,5 @@
 import { TopBar, Container, Title, Filters } from "@/components/shared";
+import { ProductCard } from "@/components/shared/productCard";
 
 export default function Home() {
   return (
@@ -17,7 +18,14 @@ export default function Home() {
         </div>
 
         <div className="flex-1">
-          <div className="flex flex-col gap-16">List item</div>
+          <div className="flex flex-col gap-16">
+            <ProductCard
+              id={0}
+              name={"Some pizza"}
+              price={20}
+              imageUrl="https://placehold.co/40x40"
+            />
+          </div>
         </div>
       </Container>
     </>
