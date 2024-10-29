@@ -1,5 +1,5 @@
 import { TopBar, Container, Title, Filters } from "@/components/shared";
-import { ProductCard } from "@/components/shared/productCard";
+import { ProductGroupList } from "@/components/shared";
 
 export default function Home() {
   return (
@@ -19,11 +19,55 @@ export default function Home() {
 
         <div className="flex-1">
           <div className="flex flex-col gap-16">
-            <ProductCard
-              id={0}
-              name={"Some pizza"}
-              price={20}
-              imageUrl="https://placehold.co/40x40"
+            <ProductGroupList
+              title={"Pizza"}
+              products={[
+                {
+                  id: 1,
+                  name: "Pizza test 1",
+                  imageUrl: "https://placehold.co/40x40",
+                  price: 20,
+                  items: [{ price: 550 }],
+                },
+                {
+                  id: 1,
+                  name: "Pizza test 1",
+                  imageUrl: "https://placehold.co/40x40",
+                  price: 20,
+                  items: [{ price: 550 }],
+                },                {
+                  id: 1,
+                  name: "Pizza test 1",
+                  imageUrl: "https://placehold.co/40x40",
+                  price: 20,
+                  items: [{ price: 550 }],
+                },                {
+                  id: 1,
+                  name: "Pizza test 1",
+                  imageUrl: "https://placehold.co/40x40",
+                  price: 20,
+                  items: [{ price: 550 }],
+                },                {
+                  id: 1,
+                  name: "Pizza test 1",
+                  imageUrl: "https://placehold.co/40x40",
+                  price: 20,
+                  items: [{ price: 550 }],
+                },                {
+                  id: 1,
+                  name: "Pizza test 1",
+                  imageUrl: "https://placehold.co/40x40",
+                  price: 20,
+                  items: [{ price: 550 }],
+                },                {
+                  id: 1,
+                  name: "Pizza test 1",
+                  imageUrl: "https://placehold.co/40x40",
+                  price: 20,
+                  items: [{ price: 550 }],
+                },
+              ]}
+              categoryId={1}
             />
           </div>
         </div>
