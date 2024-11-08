@@ -15,7 +15,7 @@
     "importOrderSortSpecifiers": true,
     "overrides": [
         {
-            "files": "*.ts",
+            "files": "*.ts/*.tsx",
             "options": {
                 "semi": true
             }
